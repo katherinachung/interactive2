@@ -1,0 +1,246 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background: AntiqueWhite;
+	margin: 50px;
+}
+
+/* container */
+
+.container {
+	position: relative;
+
+}
+
+/* items */
+
+.circle {
+	width: 225px;
+	height: 225px;
+  background: MediumPurple;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 113px;
+	opacity: .8;
+	margin: 80px;
+	position:relative;
+	float: left;
+
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.square {
+	width: 225px;
+	height: 225px;
+  background: MediumPurple;
+  opacity: .8;
+	margin: 80px;
+	position:relative;
+	float: left;
+
+
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+.item {
+	width: 240px;
+	height: 190px;
+  background: MediumPurple;
+  opacity: .8;
+	margin: 50px;
+	position:relative;
+	float: left;
+}
+.box {
+	width: 240px;
+	height: 80px;
+  background: pink;
+  opacity: .8;
+	/* comment out 'float: left;' to have items stack in a single column */
+	float: left;
+
+	/* uncomment this to get CSS transitions (conflicts with jQuery) */
+	/* transition: all 500ms ease; */
+}
+
+#button-1:hover {
+	opacity: .6;
+	background-color: lightpink;
+}
+
+
+#button-2:hover {
+	transform: scale(1.5);
+
+}
+
+#button-3:hover {
+	  border-radius: 0px;
+}
+
+#button-4:hover {
+ background: AntiqueWhite;
+}
+
+#button-5:hover {
+	width: 225px;
+	height: 225px;
+box-shadow:15px 15px 15px 5px Dimgrey;
+}
+
+#button-6:hover {
+	  border-style:dashed; border-color:purple;
+}
+
+#button-7:hover {animation:shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+@keyframes shake {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+
+	#button-8:hover{animation: bounce-up 1.4s linear infinite;
+		animation: bounce-up 1.4s linear infinite;}
+		@keyframes bounce-up {
+	  25% {-webkit-transform: translateY(20px);}
+	  50%, 100% {-webkit-transform: translateY(0);}
+		75% {-webkit-transform: translateY(-20px);}
+	 }
+
+		 @keyframes bounce-up {
+		  25% {transform: translateY(20px);}
+		  50%, 100% {transform: translateY(0);}
+		  75% {transform: translateY(-20px);}
+		 }
+}
+
+
+  #i {
+    color: #FFEEAD;
+    font-size: 48px;
+    position: absolute;
+    top: 8%;
+    left: 19%;
+  }
+
+
+  @-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+  }
+  @keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+	#button-9:hover {
+		opacity: .3;
+	}
+
+	#button-10:hover {
+		transform:rotate(9deg);
+	}
+
+
+#button-11:hover {
+transform:matrix(0.866,0.5,-0.7,0,0,0);
+}
+
+#button-12:hover{
+transform:scaleX(2);
+}
+
+#button-13:hover{
+transform:scale(0.5,2);
+}
+
+#button-14 {transition:width 2s;}
+#button-14:hover {
+width:150px;
+}
+
+#button-16:hover {position:absolute;
+clip:rect(0px 100px 100px 0px)
+}
+
+#button-15:hover{font-family:serif;}
+@font-face
+{
+font-family: serif;
+src: url('Sansation_Light.ttf'),
+}
+
+#button-19 {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 200px;
+    cursor: pointer;
+}
+
+#button-35:hover{
+    height: 200px;
+    background: -webkit-linear-gradient(left, red , blue); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, red, blue); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, red, blue); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, red , blue); /* 标准的语法（必须放在最后） */
+}
+
+#button-36:hover{
+	column-count:2;
+}
+
+#button-37:hover{border-style:solid;
+	border-bottom:thick dotted purple;}
+
+#button-38:hover {
+  background-image: url(file:///Users/Yi/Documents/Study/CCA/2018Spring/Interactive2_Ainsley%20Wagoner/interactive2/Project1%20/buford-paul-bocuse-2.jpg)
+  }
+
+	#button-39:hover {text-decoration: line-through}
+
+	#content-41:hover{
+float:left;
+width:0.7em;
+font-size:300%;
+font-family:algerian,courier;
+line-height:80%;
+}
+
+#button-42:hover{ -webkit-filter:blur(20px);}
+#button-43:hover{ -webkit-filter:invert(1);}
+
+#content-44:hover{text-transform:capitalize}
+#button-48:hover{
+	  border-radius: 120px;}
