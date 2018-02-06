@@ -1,0 +1,30 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/* container */
+
+.container {
+	position: relative;
+}
+
+.button{
+  font-family:"Comic Sans MS";
+  font-size:50px;
+  background: white;
+}
+p{
+  display:inline-block;
+  font-family:"Comic Sans MS";
+  font-size:50px;
+  margin-left:30px;
+  color:white;
+  background-color:black;
+}
