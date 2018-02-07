@@ -2,9 +2,9 @@
 
 
 $(document).ready(function(){
-var nouns = ["piggy", "ghost", "donkey", "ass", "shit", "pumpkin", "buttocks", "penis", "peewee", "dingle", "bulge", "lump", "butt", "dildo", "knob", "bum", "turd", "prick", "rod", "chode", "wiener", "jizz", "panty", "dong", "vacuum", "general", "gremlin", "pixie", "spasm", "fiend", "fungus", "tunnel", "cannon", "corporal", "raider", "demon", "buccaneer", "tyrant", "juggler", "magician", "fiddle", "stripper"];
+var nouns = ["a", "ghost", "donkey", "b", "apple", "pumpkin", "buttocks", "ckae", "broing", "yes", "no", "lamp", "jump", "I", "break", "sleep", "ask", "boat", "rabbit"];
 var word;
-var adjective = ["shitty", "mad cow diseased", "moist", "lousy", "bulbous", "trashy", "dumbass","chuncky", "nerdy", "bearded", "crusty", "dotarded", "brainless", "atomic", "rusty", "cringey", "foolish", "lumpy", "witless", "drunk"]
+var adjective = ["s", "mad", "moment", "loud", "bullon", "treasure", "dumb","chuck", "nerdy", "bread", "crash", "dotor", "brain", "atomc", "rust", "cry", "food", "laugh", "witness", "drunk"]
 function random(list) {
   word = Math.floor((Math.random() * list.length) + 0);
   word = list[word];
