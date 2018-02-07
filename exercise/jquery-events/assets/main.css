@@ -12,19 +12,23 @@ body {
 /* container */
 
 .container {
+	height: 10000px;
 	position: relative;
+    background: linear-gradient(white, black); 
 }
 
-.button{
-  font-family:"Comic Sans MS";
-  font-size:50px;
-  background: white;
+#values {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	color: red;
 }
-p{
-  display:inline-block;
-  font-family:"Comic Sans MS";
-  font-size:50px;
-  margin-left:30px;
-  color:white;
-  background-color:black;
+
+#element {
+	position: fixed;
+	top: calc(50% - 50px);
+	left: calc(50% - 50px);
+	height: 100px;
+	width: 100px;
+	background: rgba(100,100,100,1);
 }
