@@ -2,9 +2,9 @@
 
 
 $(document).ready(function(){
-var nouns = ["a", "ghost", "donkey", "b", "apple", "pumpkin", "buttocks", "ckae", "broing", "yes", "no", "lamp", "jump", "I", "break", "sleep", "ask", "boat", "rabbit"];
+var nouns = ["a", "ghost", "donkey", "b", "apple", "pumpkin", "buttom", "cake", "broing", "yes", "no", "lamp", "jump", "I", "break", "sleep", "ask", "boat", "rabbit"];
 var word;
-var adjective = ["s", "mad", "moment", "loud", "bullon", "treasure", "dumb","chuck", "nerdy", "bread", "crash", "dotor", "brain", "atomc", "rust", "cry", "food", "laugh", "witness", "drunk"]
+var adjective = ["s", "mad", "moment", "loud", "bubble", "treasure", "down","chuck", "nerdy", "bread", "crash", "dotor", "brain", "atomc", "rust", "cry", "food", "laugh", "witness", "drunk"]
 function random(list) {
   word = Math.floor((Math.random() * list.length) + 0);
   word = list[word];
