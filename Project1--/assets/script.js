@@ -12,7 +12,7 @@ function createCircles() {
   // For each circle...
   for (i = 0; i < numCircles; i++) {
     var colorClass = colors[Math.floor((Math.random() * 5))]; // Pick a color randomly
-    var dimension = Math.floor((Math.random() * 50) + 80); // Pick a random radius
+    var dimension = Math.floor((Math.random() * 100) + 70); // Pick a random radius
 
     var circ = $('<div></div>'); // Make the div to represent our circle
     circ.addClass('circle').addClass(colorClass).width(dimension).height(dimension); // Add style
@@ -31,3 +31,10 @@ function moveRandomly(obj) {
   circle.css('left', Math.floor((Math.random() * 1000) + 30)); // Random left distance
   circle.css('z-index', Math.floor((Math.random() * 10))); // Random z-index for good measure
 }
+
+$(document).ready(function(){
+    $('circle').click(function(){
+        $(this).fadeOut();
+
+    });
+});

@@ -14,7 +14,7 @@ body {
 .container {
 	height: 10000px;
 	position: relative;
-    background: linear-gradient(white, black); 
+ background: linear-gradient(white, black);
 }
 
 #values {
