@@ -1,0 +1,53 @@
+
+
+body{
+  background:black;
+}
+
+
+
+
+
+
+#sleep:hover {
+top: -50px;
+	margin-left: 100px;
+	display: block;
+	filter: blur(50px);
+	z-index: 0;
+  font-size: 448px;
+  font-family: 'Fondamento', cursive;
+    color: white;
+    animation-name: blur;
+    animation-duration:20s;
+}
+
+  @-webkit-keyframes blur {
+  0%   { opacity: 1; }
+  50%   { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes blur {
+  0%   { opacity: 1; }
+  50%   { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+
+
+
+
+
+
+#sleep {
+top: -50px;
+	margin-left: 100px;
+	display: block;
+	filter: blur(0px);
+	z-index: 0;
+  font-size: 448px;
+  font-family: 'Fondamento', cursive;
+    color:grey;
+
+}
