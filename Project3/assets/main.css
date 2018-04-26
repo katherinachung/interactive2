@@ -1,5 +1,8 @@
-body{background:url(homepage.jpg) no-repeat center center fixed;
+body{background:url(background.jpg) no-repeat center center fixed;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;}
+
+.picture{position: relative;;top:10px;left:0px;transform: scale(0.4);}
+.bubble{position: relative;;top:30px;left:100px;transform: scale(0.3);}

@@ -1,0 +1,39 @@
+html {
+
+  height:100%;
+}
+
+img {
+  max-height:100%;
+  max-width:100%;
+  top:30px;
+}
+.bubble{position: relative;top:50px;left:0px;transform: scale(0.1);}
+.box{position: fixed; top: 150px;
+  width: 250px;
+  height: 500px;
+  overflow: hidden;
+  float: left;
+  word-break: break-all;
+  word-spacing: -1px;
+  margin-left: 15px; /* or 0px */
+
+  padding: 15px;
+
+  transition: all 0.5s ease-in;
+}
+
+
+
+
+
+
+picture{position:fixed;
+  left:100%;
+  width:500px;
+
+  text-align:center;
+  font-size:10em;
+  transform:scale(1,1);
+  -webkit-transform:scale(0.1,0.1);
+}

@@ -1,15 +1,27 @@
-body{background:url(canvas.jpg) no-repeat center center fixed;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-font-family: 'Amatic SC';font-size: 100px;color:#F08080;
+.parallax {
+    /* The image used */
+    background:url(canvas.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    /* Set a specific height */
+    min-height: 800px;
+    min-width:1250px;
+    position:absolute;left: 0px; top:0px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.letter{ height:150px; width:130px;transform: scale(0.8);
-}
-.letter1{ height:180px; width:160px;transform: scale(2);
-}
+.specimen{background-color:#303036;height:3000px;}
+
+
+
 .number{ height:50px; width:50px;
 }
 
@@ -25,7 +37,31 @@ font-family: 'Amatic SC';font-size: 100px;color:#F08080;
 }
 
 
-#A{position:absolute;left:130px;top:100px;}
+#1T{position:absolute;left:200px;top:550px;
+}
+
+#1Tdots1{ position:absolute;left:10px;top:9.5px;background-color:#F08080;
+}
+
+#1Tdots2{ position:absolute;left:63.5px;top:167px;background-color:#F08080;
+}
+
+#1Tdots3{ position:absolute;left:83px;top:9.5px;background-color:#F08080;
+}
+
+#1Tdots4{ position:absolute;left:115px;top:9.5px;background-color:#F08080;
+}
+
+#1Tlines1{ position:absolute;left:-4px;top:90px; width:160px;background-color:#F08080;
+transform: rotate(97deg);
+}
+
+#1Tlines2{ position:absolute;left:15px;top:12px; width:100px;background-color:#F08080;
+}
+
+
+
+#A{position:absolute;left:150px;top:900px;}
 
 #Adots1{ position:absolute;left:101px;top:4px;
 }
@@ -65,7 +101,7 @@ transform: rotate(11deg);
 
 
 
-#B{position:absolute;left:300px;top:100px;
+#B{position:absolute;left:320px;top:900px;
 }
 
 #Bdots1{ position:absolute;left:29px;top:12px;
@@ -113,7 +149,7 @@ transform:rotate(171deg);
 
 
 
-#C{position:absolute;left:470px;top:100px;
+#C{position:absolute;left:490px;top:900px;
 }
 #Cdots1{ position:absolute;left:129px;top:15px;
 }
@@ -143,7 +179,7 @@ transform: rotate(11deg);
 
 
 
-#D{position:absolute;left:645px;top:100px;transform:
+#D{position:absolute;left:665px;top:900px;transform:
 }
 
 #Ddots1{  position:absolute;left:29px;top:12px;
@@ -178,7 +214,7 @@ transform: rotate(169deg);
 
 
 
-#E{position:absolute;left:810px;top:100px;
+#E{position:absolute;left:830px;top:900px;
 }
 
 #Edots1{position:absolute;left:29px;top:25px;background-color:#F08080;
@@ -226,7 +262,7 @@ transform: rotate(172deg);
 
 
 
-#F{position:absolute;left:980px;top:100px;
+#F{position:absolute;left:1000px;top:900px;
 }
 
 #Fdots1{position:absolute;left:29px;top:25px;
@@ -267,7 +303,7 @@ transform: rotate(7deg);
 
 
 
-#G{position:absolute;left:130px;top:300px;}
+#G{position:absolute;left:115px;top:1100px;transform: scale(1.05);}
 
 
 #Gdots1{ position:absolute;left:102px;top:9px;
@@ -311,7 +347,7 @@ transform: rotate(26deg);
 
 
 
-#H{position:absolute;left:300px;top:300px;
+#H{position:absolute;left:297px;top:1100px;transform: scale(1.03);
 }
 
 #Hdots1{ position:absolute;left:29px;top:12px;
@@ -352,7 +388,7 @@ transform: rotate(15deg);
 }
 
 
-#I{position:absolute;left:470px;top:300px;
+#I{position:absolute;left:480px;top:1103px; transform: scale(1.03);
 height:180px; width:50px;}
 
 #Idots1{ position:absolute;left:31px;top:9.5px;background-color:#F08080;
@@ -392,7 +428,7 @@ transform: rotate(97deg);
 }
 
 
-#J{position:absolute;left:530px;top:300px;
+#J{position:absolute;left:550px;top:1104px;transform: scale(1.05);
 height:180px; width:120px;}
 
 #Jdots1{ position:absolute;left:101px;top:10px;
@@ -435,7 +471,7 @@ transform: rotate(37deg);}
 
 
 
-#K{position:absolute;left:660px;top:300px;
+#K{position:absolute;left:680px;top:1100px;transform: scale(1.03);
 }
 
 #Kdots1{ position:absolute;left:29px;top:12px;background-color:#F08080;
@@ -476,7 +512,7 @@ transform: rotate(16deg);
 
 
 
-#L{position:absolute;left:830px;top:300px;
+#L{position:absolute;left:850px;top:1102px;transform: scale(1.05);
 height:180px; width:130px;}
 
 #Ldots1{ position:absolute;left:29px;top:12px;background-color:#F08080;
@@ -504,7 +540,7 @@ transform: rotate(98deg);
 }
 
 
-#M{position:absolute;left:970px;top:300px;
+#M{position:absolute;left:990px;top:1092px; transform: scale(1.08);
 
 }
 
@@ -514,7 +550,7 @@ transform: rotate(98deg);
 #Mdots2{ position:absolute;left:8px;top:166px;
 }
 
-#Mdots3{ position:absolute;left:43px;top:156px;
+#Mdots3{ position:absolute;left:43px;top:158px;
 }
 
 #Mdots4{ position:absolute;left:130px;top:12px;
@@ -545,7 +581,7 @@ transform: rotate(90deg);
 
 #M:hover .lines {
   background: white}
-#N {position:absolute;left:130px;top:500px;
+#N {position:absolute;left:120px;top:1325px;
 }
 
 #Ndots1{ position:absolute;left:26px;top:12px;background-color:#F08080;
@@ -581,7 +617,7 @@ transform: rotate(101deg);
 }
 
 
-#O{position:absolute;left:300px;top:500px;
+#O{position:absolute;left:275px;top:1325px;transform: scale(1.03);
 }
 
 #Odots1{ position:absolute;left:103px;top:2px;
@@ -628,7 +664,7 @@ transform: rotate(48deg);
 }
 
 
-#Q{position:absolute;left:650px;top:500px;
+#Q{position:absolute;left:630px;top:1320px;transform: scale(1.03);
 }
 
 #Qdots1{ position:absolute;left:103px;top:2px;
@@ -687,7 +723,7 @@ transform: rotate(32deg);
 
 
 
-#P{position:absolute;left:495px;top:500px;
+#P{position:absolute;left:470px;top:1320px;transform: scale(1.05);
 }
 
 #Pdots1{ position:absolute;left:29px;top:12px;
@@ -726,7 +762,7 @@ transform: rotate(171deg);
 
 
 
-#R{position:absolute;left:840px;top:500px;
+#R{position:absolute;left:825px;top:1320px;transform: scale(1.03);
 }
 
 #Rdots1{ position:absolute;left:29px;top:12px;
@@ -772,7 +808,7 @@ transform: rotate(33deg);
 
 
 
-#S{position:absolute;left:1000px;top:500px;
+#S{position:absolute;left:980px;top:1325px; transform: scale(1.05);
 }
 
 #Sdots1{ position:absolute;left:111px;top:72px;
@@ -837,7 +873,7 @@ transform: rotate(45deg);
 }
 
 
-#T{position:absolute;left:100px;top:700px;
+#T{position:absolute;left:100px;top:1550px;
 }
 
 #Tdots1{ position:absolute;left:10px;top:9.5px;background-color:#F08080;
@@ -869,7 +905,7 @@ transform: rotate(97deg);
 }
 
 
-#U{position:absolute;left:230px;top:700px;
+#U{position:absolute;left:230px;top:1550px;
 }
 
 #Udots1{ position:absolute;left:29px;top:13px;
@@ -913,7 +949,7 @@ transform: rotate(161deg);
 
 
 
-#V{position:absolute;left:380px;top:700px;
+#V{position:absolute;left:380px;top:1550px;
 }
 
 #Vdots1{ position:absolute;left:15px;top:13px;
@@ -944,7 +980,7 @@ transform: rotate(121deg);
 
 
 
-#W{position:absolute;left:510px;top:703px;}
+#W{position:absolute;left:510px;top:1553px;}
 
 #Wdots1{ position:absolute;left:12px;top:8px;background-color:#F08080;
 }
@@ -986,7 +1022,7 @@ transform: rotate(111deg);
 }
 
 
-#X{position:absolute;left:675px;top:700px;}
+#X{position:absolute;left:675px;top:1550px;transform: scale(0.95);}
 
 #Xdots1{ position:absolute;left:21.5px;top:23px;
 }
@@ -1018,7 +1054,7 @@ transform: rotate(43deg);
 }
 
 
-#Y{position:absolute;left:850px;top:700px;
+#Y{position:absolute;left:845px;top:1550px;
 }
 
 #Ydots1{ position:absolute;left:7px;top:14px;
@@ -1055,7 +1091,7 @@ transform: rotate(96deg);
 
 
 
-#Z {position:absolute;left:1055px;top:702px;transform:scale(0.8)rotate(83deg);
+#Z {position:absolute;left:1170px;top:1550px;transform:scale(1.02)rotate(83deg);
 }
 
 #Zdots1{ position:absolute;left:26px;top:11px;
