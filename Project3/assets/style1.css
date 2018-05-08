@@ -9,7 +9,7 @@ img {
   top:30px;
 }
 .bubble{position: relative;top:50px;left:0px;transform: scale(0.1);}
-.box{position: fixed; top: 150px;
+.box{position: fixed; top: 150px;font-family: 'Montserrat', sans-serif;
   width: 250px;
   height: 500px;
   overflow: hidden;
